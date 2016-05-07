@@ -2,6 +2,6 @@ var Search = {
     index: function(req,res){
     res.render ('Search');
 }
-}//Search controller 
+};//Search controller 
 
 module.exports = Search;

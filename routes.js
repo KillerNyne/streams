@@ -13,6 +13,8 @@ var Router = {
 
         // Users
         app.get('/users', controllers.Users.index);
+        // Search
+        app.get('/search. controller.Users.index');
 
     }
 

@@ -1,6 +1,6 @@
 var Search = {
     index: function(req,res){
-    res.render ('Search');
+    res.render ('search/index');
 }
 };//Search controller 
 

@@ -1,7 +1,30 @@
 {% extends "layouts/base.html" %}
 
 {% block content %}
+<style>
+body { 
+    background-color: darkblue;
+}
+
+p { 
+    font-family: Papyrus,fantasy;
+    color: lightblue;
+    font-size: 200%;
+}
+
+h1{
+    font-family: "Brush Script MT",cursive;
+    color: lightblue;
+}
+</style>
+
+<div>
+    <body>
     <h1>{{ title }}</h1>
     <p>Welcome to  {{ title | escape }}
-    <a href="./about" class="btn btn-info">About Us</a></p>
+    <a href="./about" class="btn btn-info">About Us</a>
+    <a href="./search" class="btn btn-info">Search</a>
+    </p>
+    </body>
+</div>
 {% endblock %}
